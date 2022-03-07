@@ -17,6 +17,7 @@ The datasets used in this study will include:
 * geopandas
 * os
 * glob
+* math
 
 ###Methodology:
 For this study I will query Open Street Map to identify the parking lot polygons in the top twenty US cities (by population). Core Based Statistical Areas (CBSAs) from the US census will be used to outline metropolitan areas. I will sum the area of the parking lot polygons within each city and calculate the percentage of parking lot surface area within those CBSAs. The results of each city calculation will be projected onto a continent-wide map of the US.
@@ -35,3 +36,5 @@ Scharnhorst, E. (2018) Quantified Parking: Comprehensize Parking Inventories for
 Strong Towns (2018) The Many Costs of Too Much Parking. <a>https://www.strongtowns.org/journal/2018/11/20/the-many-costs-of-too-much-parking</a>
 
 United States Census Bureau (2021) Core Based Statistical Areas, Metropolitan/Micropolitan Statistical Area. TIGER/Line Shapefiles. <a>https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html</a>
+
+Search OSM by relation ID or city name: https://nominatim.openstreetmap.org/ui/search.html
