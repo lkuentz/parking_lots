@@ -17,7 +17,6 @@ The datasets used in this study will include:
 * geopandas
 * os
 * glob
-* cenpy
 
 ###Methodology:
 For this study I will query Open Street Map to identify the parking lot polygons in the top twenty US cities (by population). Core Based Statistical Areas (CBSAs) from the US census will be used to outline metropolitan areas. I will sum the area of the parking lot polygons within each city and calculate the percentage of parking lot surface area within those CBSAs. The results of each city calculation will be projected onto a continent-wide map of the US.
